@@ -2,6 +2,6 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def heip
+  def help
   end
 end
