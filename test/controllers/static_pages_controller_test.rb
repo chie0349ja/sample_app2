@@ -6,8 +6,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get heip" do
-    get static_pages_heip_url
+  test "should get help" do
+    get static_pages_help_url
     assert_response :success
   end
 end
