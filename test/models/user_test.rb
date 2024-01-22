@@ -52,7 +52,7 @@ class UserTest < ActiveSupport::TestCase
     assert_not duplicate_user.valid?
   end
 
-  test "" do
+  test "email addresses should be unique" do
     mixed_case_email ="Foo@ExAMPle.CoM"
     @user.email  = mixed_case_email
     @user.save
